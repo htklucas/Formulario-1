@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="icon" type="image/x-icon" href="Formulario/">
+    <script src="formulario.js"></script>
+    <title>Formulário</title>
+</head>
+<body>
+
+    <h1 class="titulo">Cadastro Perfil</h1>
+
+    <section class="container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3lUXoW_2yUPKkKpFEVGM04gsRowd0vCyXew&s" alt="Sem Imagem">
+    
+    <div class="informacoes">
+
+    <label class="informacaoDigito" for="text">Seu nome:</label>
+    <input class="informacao" type="text" id="nome" name="data" placeholder="Nome completo"><br>
+
+    <label class="informacaoDigito" for="email">Seu e-mail:</label>
+    <input class="informacao" type="email" id="email" name="data" placeholder="E-mail"><br>
+
+    <label class="informacaoDigito" for="password">Sua senha:</label>
+    <input class="informacao" type="password" id="password" name="data" placeholder="Senha"><br>
+
+    <label class="informacaoDigito" for="date">Data Nasc:</label>
+    <input class="informacao" type="date" id="date" name="data" value="date"><br>
+
+    </div>
+
+
+
+    <h3>Gostos</h3>
+    <input type="checkbox" id="tecnologia" name="gostos" value="tecnologia"> 
+    <label for="tecnologia">Tecnologia</label>
+
+    <input type="checkbox" id="moda" name="gostos" value="moda"> 
+    <label for="moda">Moda</label>
+
+    <input type="checkbox" id="esportes" name="gostos" value="esportes"> 
+    <label for="esportes">Esportes</label>
+
+
+
+    <h3>Estado civíl</h3>
+    <input type="radio" id="solteiro" name="estado_civil" value="solteiro"> 
+    <label for="solteiro">Solteiro</label>
+
+    <input type="radio" id="casado" name="estado_civil" value="casado"> 
+    <label for="casado">Casado</label>
+
+    <input type="radio" id="divorciado" name="estado_civil" value="divorciado"> 
+    <label for="divorciado">Divorciado</label>
+
+    <input type="radio" id="viuvo" name="estado_civil" value="viuvo"> 
+    <label for="viuvo">Viúvo</label>
+    
+    <div class="button">
+        <button type="button" onclick="">Cancelar</button>
+        <button type="button" onclick="Registro()">Efetuar</button>
+    </div>
+
+    </section>
+    
+</body>
+</html>

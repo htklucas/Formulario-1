@@ -1,0 +1,79 @@
+/* Declarando */
+
+body{
+    font-family: Arial;
+    background-color: #ffffff;
+    color: rgb(96, 96, 96);
+    margin: 100px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container{
+    border: 5px solid #00000000;
+    border-radius: 20px;
+    background-color: #e1e1e1;
+    color: #000000;
+    width: 800px;
+    margin: auto;
+}
+
+img{
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 180px;
+    height: 180px;
+    box-shadow: 5px 10px #00000083;
+}
+
+button{
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border-color: rgba(255, 0, 0, 0);
+    background-color: #575757;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.informacoes{
+    font-size: 18px;
+}
+.informacao{
+    margin-left: 50px;
+    width: 150px;
+    font-size: 18px;
+    background-color: #e1e1e1;
+    border-color: #333333;
+    border-radius: 5px;
+}
+
+/* Funções */
+
+button:hover{
+    background-color: #171717;
+    transform: scale(1.1);
+}
+input::placeholder{
+    color: #1b1b1bbb;
+}
+
+input[type = "checkbox"]:hover{
+    accent-color: #666666;
+}
+
+input[type = "radio"]:hover{
+    accent-color: #666666;
+}
+
+input[type = "checkbox"]:checked{
+    accent-color: #000000;
+}
+
+input[type = "radio"]:checked{
+    accent-color: #000000;
+}
+

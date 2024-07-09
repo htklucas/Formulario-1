@@ -1,0 +1,31 @@
+body{
+    font-family: Arial;
+    background-color: #ffffff;
+    margin: 100px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.titulo{
+    margin: auto;
+    border: solid #00000000;
+    background-color: #e1e1e1;
+    color: rgb(96, 96, 96);
+    width: 1000px;
+    border-radius: 20px;
+}
+
+.texto{
+    margin: 20px;
+}
+
+button{
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border-color: rgba(255, 0, 0, 0);
+    background-color: #575757;
+    width: 120px;
+    height: 40px;
+}
